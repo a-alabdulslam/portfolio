@@ -8,7 +8,7 @@ const EducationTile = () => {
     if (!education || education.length === 0) return null;
 
     return (
-        <div className="bg-white dark:bg-zinc-800 rounded-xl p-6 shadow-sm border border-zinc-200 dark:border-zinc-700 col-span-1 md:col-span-2 h-fit flex flex-col justify-between">
+        <div className="bg-white dark:bg-zinc-800 rounded-xl p-6 shadow-sm border border-zinc-200 dark:border-zinc-700 col-span-1 md:col-span-2 h-full flex flex-col justify-between">
             <div className="flex items-center gap-3 mb-2">
                 <div className="p-2 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg text-indigo-600 dark:text-indigo-400">
                     <GraduationCap size={20} />

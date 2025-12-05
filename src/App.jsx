@@ -6,6 +6,7 @@ import TechStack from './components/modules/TechStack';
 import ExperienceTile from './components/modules/ExperienceTile';
 import AboutTile from './components/modules/AboutTile';
 import EducationTile from './components/modules/EducationTile';
+import ProjectsTile from './components/modules/ProjectsTile';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <ExperienceTile />
           <TechStack />
           <EducationTile />
+          <ProjectsTile />
         </BentoGrid>
       </main>
     </div>

@@ -19,11 +19,11 @@ const TechStack = () => {
 
     return (
         <div className="bg-orange-50 dark:bg-zinc-800 rounded-xl p-6 shadow-sm border border-zinc-200 dark:border-zinc-700 col-span-1 md:col-span-2 h-fit flex flex-col gap-4">
-            <h3 className="text-lg font-semibold text-zinc-800 dark:text-zinc-200">Skills</h3>
+            <h3 className="text-lg font-semibold text-zinc-800 dark:text-white">Skills</h3>
             <div className="flex flex-col gap-4">
                 {skills.map((skillGroup, i) => (
                     <div key={i}>
-                        <div className="flex items-center gap-2 mb-2 text-zinc-600 dark:text-zinc-300 text-sm font-medium">
+                        <div className="flex items-center gap-2 mb-2 text-zinc-800 dark:text-zinc-200 text-sm font-medium">
                             {getIconForCategory(skillGroup.name)}
                             <span>{skillGroup.name}</span>
                         </div>

@@ -34,6 +34,13 @@ const resumeData = {
             date: ""
         }
     ],
+    projects: [
+        {
+            name: "Airflow Learning Repo",
+            description: "A repository to learn airflow basics",
+            url: "https://github.com/a-alabdulslam/airflow"
+        }
+    ],
     skills: [
         {
             name: "Programing Languages",

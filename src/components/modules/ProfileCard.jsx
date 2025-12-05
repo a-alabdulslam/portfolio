@@ -41,7 +41,7 @@ const ProfileCard = () => {
             </button>
             <div>
                 <h2 className="text-2xl font-bold text-zinc-900 dark:text-white">{name}</h2>
-                <p className="text-zinc-500 dark:text-zinc-400 mt-2">{headline}</p>
+                <p className="text-zinc-500 dark:text-zinc-200 mt-2">{headline}</p>
                 <p className="text-zinc-400 dark:text-zinc-500 text-sm mt-1">{location}</p>
             </div>
         </div>
