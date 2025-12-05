@@ -27,15 +27,13 @@ const ThemeToggle = () => {
     };
 
     return (
-        <div className="bg-white dark:bg-zinc-800 rounded-xl p-6 shadow-sm border border-zinc-200 dark:border-zinc-700 col-span-1 flex items-center justify-center">
-            <button
-                onClick={toggleTheme}
-                className="p-4 bg-zinc-100 dark:bg-zinc-700 rounded-full text-zinc-600 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-600 transition-colors"
-                aria-label="Toggle Theme"
-            >
-                {theme === 'dark' ? <Moon size={24} /> : <Sun size={24} />}
-            </button>
-        </div>
+        <button
+            onClick={toggleTheme}
+            className="bg-white dark:bg-zinc-800 rounded-xl p-4 shadow-sm border border-zinc-200 dark:border-zinc-700 col-span-1 flex items-center justify-center hover:bg-zinc-50 dark:hover:bg-zinc-700/50 transition-colors"
+            aria-label="Toggle Theme"
+        >
+            {theme === 'dark' ? <Moon size={28} /> : <Sun size={28} />}
+        </button>
     );
 };
 

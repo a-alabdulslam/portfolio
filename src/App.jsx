@@ -1,10 +1,11 @@
 import React from 'react';
 import BentoGrid from './components/BentoGrid';
 import ProfileCard from './components/modules/ProfileCard';
-import ThemeToggle from './components/modules/ThemeToggle';
 import SocialLinks from './components/modules/SocialLinks';
-import ProjectShowcase from './components/modules/ProjectShowcase';
 import TechStack from './components/modules/TechStack';
+import ExperienceTile from './components/modules/ExperienceTile';
+import AboutTile from './components/modules/AboutTile';
+import EducationTile from './components/modules/EducationTile';
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
       <main className="w-full">
         <BentoGrid>
           <ProfileCard />
-          <ThemeToggle />
-          <TechStack />
           <SocialLinks />
-          <ProjectShowcase />
-          {/* Add more modules here */}
+          <AboutTile />
+          <ExperienceTile />
+          <TechStack />
+          <EducationTile />
         </BentoGrid>
       </main>
     </div>
